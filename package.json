@@ -1,25 +1,34 @@
 {
-  "name": "titaniumaplus",
+  "name": "thorium",
   "version": "1.0.0",
-  "description": "repo for assignments and practice problems",
+  "description": "\"Backend site Project for Functionup\"",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "modules": "^0.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabihak89/titaniumaplus.git"
+    "url": "git+https://github.com/sabihak89/thorium.git"
   },
-  "author": "functionUp",
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Arti-thorium",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sabihak89/titaniumaplus/issues"
+    "url": "https://github.com/sabihak89/thorium/issues"
   },
-  "homepage": "https://github.com/sabihak89/titaniumaplus#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.9"
-  }
+  "homepage": "https://github.com/sabihak89/thorium#readme"
 }
